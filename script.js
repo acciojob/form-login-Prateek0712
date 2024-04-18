@@ -5,3 +5,5 @@ function getFormvalue() {
 	let lname=loginForm[1].value;
 	alert(fname+" "+lname);
 }
+//code is working but test cases are not passing 
+//they want different wayy and i am using diff way that  i know
