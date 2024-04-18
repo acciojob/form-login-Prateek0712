@@ -1,6 +1,7 @@
 function getFormvalue() {
     //Write your code here
-	let lname=document.input[name="fname"];
-	let fname=document.input[name="lname"];
+	let loginForm=document.querySelector("form");
+	let fname=loginForm[0].value;
+	let lname=loginForm[1].value;
 	alert(fname+" "+lname);
 }
